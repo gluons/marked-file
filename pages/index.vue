@@ -4,7 +4,7 @@
 		.hero-body
 			.container
 				h1.title #[markdown-mark.md-icon(color='white')] Marked File
-				h1.subtitle Parse markdown file to #[b-icon(icon='html5')] HTML on client-side.
+				h1.subtitle Parse markdown file to #[b-icon(icon='html5')] HTML on browser.
 	section.section
 		form.container(@submit.prevent='', ref='upload-form')
 			h1#md-file.title Markdown File

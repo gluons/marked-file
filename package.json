@@ -1,7 +1,7 @@
 {
   "name": "marked-file",
   "version": "1.0.0",
-  "description": "Parse markdown file to HTML on client-side.",
+  "description": "Parse markdown file to HTML on browser.",
   "author": "Saran Tanpituckpong <sarunta@gmail.com>",
   "license": "MPL-2.0",
   "private": true,
