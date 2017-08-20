@@ -1,9 +1,13 @@
 module.exports = {
+	css: [
+		'font-awesome/css/font-awesome.css',
+		'buefy/lib/buefy.css'
+	],
 	/*
 	** Headers of the page
 	*/
 	head: {
-		title: 'marked-file',
+		title: 'Marked File',
 		meta: [
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -34,5 +38,11 @@ module.exports = {
 				});
 			}
 		}
-	}
+	},
+	plugins: [
+		'~/plugins/global.js',
+		'~/plugins/buefy.js',
+		'~/plugins/jump.js',
+		'~/plugins/clipboard.js'
+	]
 };
