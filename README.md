@@ -1,6 +1,9 @@
-# marked-file
+# Marked File
+[![pipeline status](https://gitlab.com/gluons/marked-file/badges/master/pipeline.svg)](https://gitlab.com/gluons/marked-file/commits/master)
 
-> Parse markdown file to HTML on client-side.
+Parse markdown file to HTML on client-side.
+
+**Site:** https://marked-file.firebaseapp.com/
 
 ## Build Setup
 
