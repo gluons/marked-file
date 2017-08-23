@@ -31,6 +31,12 @@
 						span Copy
 			b-field
 				b-input(type='textarea', rows='10', readonly, v-model='parsedMarkdown')
+	footer.footer
+		.container
+			.content.has-text-centered
+				p Made with ❤️ by #[blank-link(url='https://gitlab.com/gluons') Saran Tanpituckpong]
+				p
+					blank-link(url='https://gitlab.com/gluons/marked-file') #[b-icon.gitlab-icon(icon='gitlab')] View on GitLab
 </template>
 
 <script>
@@ -105,6 +111,11 @@ export default {
 	}
 	#copy-button-container {
 		margin: 1em 0;
+	}
+	footer {
+		.gitlab-icon {
+			color: #e24329;
+		}
 	}
 }
 </style>
