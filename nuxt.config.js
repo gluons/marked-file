@@ -41,7 +41,7 @@ module.exports = {
 	},
 	plugins: [
 		'~/plugins/global.js',
-		'~/plugins/buefy.js',
+		{ src: '~/plugins/buefy.js', ssr: false },
 		'~/plugins/jump.js',
 		'~/plugins/clipboard.js'
 	]
